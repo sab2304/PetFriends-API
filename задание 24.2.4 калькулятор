@@ -1,0 +1,10 @@
+calculator_project_24.2.4/
+├── app/
+│   ├── __init__.py
+│   └── calculator.py          # Класс Calculator
+├── tests/
+│   ├── __init__.py
+│   └── test_calculator.py     # Позитивные тесты
+├── README.md
+├── requirements.txt
+└── .gitignore
