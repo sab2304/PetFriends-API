@@ -1,0 +1,11 @@
+# Самое важное
+__pycache__/
+*.pyc
+.env
+.venv/
+.vscode/
+.idea/
+.DS_Store
+*.log
+.pytest_cache/
+allure-results/
