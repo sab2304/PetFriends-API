@@ -1,0 +1,29 @@
+def test_create_pet_with_invalid_status(self):
+    # Передаем невалидный статус
+
+def test_get_pet_with_nonexistent_id(self):
+    # Запрос несуществующего ID
+
+def test_update_pet_without_authentication(self):
+    # Без авторизации
+
+def test_create_pet_with_negative_id(self):
+    # Отрицательный ID
+
+def test_upload_image_to_nonexistent_pet(self):
+    # Загрузка к несуществующему питомцу
+
+def test_create_pet_with_very_long_name(self):
+    # Имя длиной 1000+ символов
+
+def test_create_pet_with_special_chars(self):
+    # Спецсимволы в имени
+
+def test_create_pet_empty_name(self):
+    # Пустое имя
+
+def test_sql_injection_in_pet_name(self):
+    # SQL-инъекция в параметрах
+
+def test_xss_in_pet_category(self):
+    # XSS в данных
